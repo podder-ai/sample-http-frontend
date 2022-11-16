@@ -8,7 +8,7 @@ authors = ["Takaaki Mizuno <takaaki.mizuno@gmail.com>"]
 python = ">=3.7.1,<3.11"
 podder-task-foundation = {git = "git@github.com:podder-ai/podder-task-foundation.git", rev = "0.2.14"}
 "pdfminer.six" = "^20221105"
-podder-task-foundation-commands-http = {path = "../../podder-task-foundation-commands-http"}
+podder-task-foundation-commands-http = {git = "git@github.com:podder-ai/podder-task-foundation-commands-http.git"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
